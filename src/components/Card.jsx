@@ -12,7 +12,7 @@ const Card = ({data,getUser}) => {
     email,
     location,
     name,
-    nat,
+   
     picture,
     registered
   } = data
