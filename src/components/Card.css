@@ -1,0 +1,43 @@
+.card-container {
+  width: 400px;
+ 
+  padding:1rem ;
+
+}
+.card {
+  background-color: rgb(203, 237, 246);
+  padding: 1rem
+}
+.user-info-contact {
+  display: flex;
+  justify-content: flex-end;
+  padding:1rem;
+
+}
+button {
+padding:.6rem;
+background-color: rgb(139, 171, 240);
+border: none;
+margin-top: 1rem;
+border-radius: 3px;
+color:white;
+}
+.btn{
+  display: flex;
+  justify-content: center;
+
+}
+
+
+
+
+.user-info {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 30px;
+}
+.icon img {
+
+  width: 30px;
+}
