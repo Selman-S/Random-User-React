@@ -1,6 +1,6 @@
 .card {
   width: 450px;
-  height: 380px;
+  height: 420px;
   background: rgb(250,255,255);
 background: radial-gradient(circle, rgba(250,255,255,1) 0%, rgb(158, 223, 255) 80%);
 border: 2px solid rgb(107, 118, 126);
@@ -22,8 +22,8 @@ box-shadow: 10px 10px 5px 0px rgb(101, 142, 204);
   text-align: center;
 }
 .img {
-  width: 100px;
-  height: 100px;
+  width: 140px;
+  height: 140px;
   border-radius: 50%;
   background-position: center center;
 
@@ -38,13 +38,13 @@ box-shadow: 10px 10px 5px 0px rgb(101, 142, 204);
   margin-top: 25px;
 }
 .name {
-  margin-top: 2.2rem;
+  margin-top: 4rem;
   font-weight: 600;
   letter-spacing: 1px;
   font-size: 18px;
 }
 .email{
-  margin-top: 4rem;
+  margin-top: 5rem;
 }
 
 .phone {
