@@ -3,13 +3,29 @@ import './Card.css';
 import emailSvg from '../assets/email.svg'
 import locaSvg from '../assets/location.svg'
 import phoneSvg from '../assets/phone.svg'
-const Card = () => {
+
+
+const Card = ({data,getUser}) => {
+  const {
+    cell,
+    dob,
+    email,
+    location,
+    name,
+    nat,
+    picture,
+    registered
+  } = data
+  console.log(data)
   return (
     <div className="card-container">
       <div className="card">
         <div className="user-name user-info">
-            <img src="https://images.pexels.com/photos/220453/pexels-photo-220453.jpeg?auto=compress&cs=tinysrgb&w=100" alt="profile photo" />
-      <h1 className="name">Mr eric</h1>
+          <div className="img " style={{ background: `url(${picture.large}) center center no-repeat `,width:"120px", height:"120px",backgroundSize: "contain",borderRadius:"50%"  }}>
+            
+
+          </div>
+      <h5 className="name">{name.title} {name.first} {name.last}</h5>
         </div>
         <div className="user-name icon user-info">
   <img src={emailSvg} alt="email" />  <p className="email">eric@hotmail.com</p>
@@ -31,7 +47,7 @@ const Card = () => {
        
             </div>
             <div className="btn">
-      <button>Random User</button>
+      <button onClick={() => getUser()}>Random User</button>
 
             </div>
     </div>
