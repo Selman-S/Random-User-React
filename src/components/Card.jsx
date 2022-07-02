@@ -22,7 +22,7 @@ const Card = ({data,getUser}) => {
    
    <div className="card" >
     <div className="left">
-      <div className="img" style={{background : ` url(${picture.large})`}}>
+      <div className="img" style={{backgroundImage : ` url(${picture.large})   `}}>
         
 
       </div>
